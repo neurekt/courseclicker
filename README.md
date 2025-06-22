@@ -1,53 +1,66 @@
-## CourseClicker
+# CourseClicker
 
-This project clicks anywhere on your screen with configurable options and is currently run locally. I definitely did not build this to get me through my real estate course while sleeping. It supports both a GUI and command-line interface.
+CourseClicker is a lightweight tool that clicks anywhere on your screen at regular intervals. Built to run automatically while you focus on other things — or nothing at all.
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/neurekt/courseclicker.git
+cd courseclicker/dist
+courseclicker.exe   # or just double-click it
+```
+
+No Python needed. GUI launches automatically.
+
+
+## 💻 Developer Setup (Optional)
+
+If you want to run or modify the Python code:
+
+### Install Locally
+
+```bash
+git clone https://github.com/yourusername/courseclicker.git
+cd courseclicker
+```
+
+(Optional) Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate        # macOS/Linux
+.venv\Scripts\activate           # Windows
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-## Installation (Local)
+## 🧠 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/courseclicker.git
-   cd courseclicker
-   ```
-
-2. (Optional but recommended) Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate        # On macOS/Linux
-   .venv\Scripts\activate           # On Windows
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## How to Use
-
-### Run with GUI (default)
+### Run with GUI (Default)
 
 ```bash
 python src/courseclicker/main.py
 ```
 
-Or if installed as a CLI tool:
+Or, if installed:
 ```bash
 courseclicker
 ```
 
-This opens a window where you can:
-- Set the interval (in seconds)
-- Click “Set Position” and hover over your target
-- Click “Start Clicking” to begin
-- Use “Stop Clicking” or “Exit” to stop
+In the GUI:
+- Set the click interval (seconds)
+- Click “Set Position” and hover over the target
+- Click “Start Clicking”
+- Stop or exit anytime
 
 ---
 
-### Run from CLI
+### Run with CLI
 
 ```bash
 courseclicker --cli --interval 180
@@ -64,51 +77,51 @@ courseclicker --cli --interval 180
 
 ---
 
-## Build Executable (Windows)
+## 🔨 Build Executable (Windows)
 
-1. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
+Build a standalone `.exe` (no Python needed to run):
 
-2. Run the build script:
-   ```bash
-   python build.py
-   ```
+Install PyInstaller:
 
-This creates a standalone `.exe` in the `dist/` folder with your icon included.
+```bash
+pip install pyinstaller
+```
+
+Then build the app:
+
+```bash
+python build.py
+```
+
+This creates `courseclicker.exe` inside the `dist/` folder. You can now share or run this without Python installed.
 
 ---
 
-## Development
+## 🛠 Development
 
-### Run the app in dev mode
-
+Run the app in dev mode:
 ```bash
 make run
 ```
 
-### Run tests
-
+Run tests:
 ```bash
 make test
 ```
 
-### Clean build artifacts
-
+Clean build artifacts:
 ```bash
 make clean
 ```
 
 Or manually:
-
 ```bash
 rm -rf build dist *.spec
 ```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 courseclicker/
@@ -129,6 +142,6 @@ courseclicker/
 
 ---
 
-## License
+## 📄 License
 
-See `LICENSE.txt` for details.
+See `LICENSE.txt` for terms.

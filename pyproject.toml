@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.7"
 license = { file = "LICENSE.txt" }
 authors = [
-  { name = "Your Name", email = "your@email.com" }
+  { name = "Ganesh Scarozza", email = "gmscarozza@email.com" }
 ]
 dependencies = [
   "pyautogui>=0.9",
