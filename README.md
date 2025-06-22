@@ -5,14 +5,16 @@ CourseClicker is a lightweight tool that clicks anywhere on your screen at regul
 
 ## 🚀 Quick Start
 
-```bash
-git clone https://github.com/neurekt/courseclicker.git
-cd courseclicker/dist
-courseclicker.exe   # or just double-click it
-```
+📦 [Download the latest release](https://github.com/neurekt/courseclicker/releases)
 
-No Python needed. GUI launches automatically.
+### ✅ How to Use (Windows)
 
+1. Extract the ZIP file
+2. Double-click `courseclicker.exe`
+3. Set your click position
+4. Let it run while you do something else 😎
+
+> No Python or install required.
 
 ## 💻 Developer Setup (Optional)
 

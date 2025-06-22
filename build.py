@@ -15,9 +15,11 @@ for target in ["build", "dist", "courseclicker.spec"]:
 # Build a fresh .exe
 subprocess.run([
     "pyinstaller",
-    "--noconfirm",          # Don't ask questions
-    "--onefile",            # Just one .exe file
-    "--windowed",           # No terminal pop-up
-    "--icon=courseclicker.ico",  # Your custom icon
-    "src/courseclicker/main.py"  # Your app
+    "--noconfirm",
+    "--onefile",
+    "--windowed",
+    "--icon=courseclicker.ico",
+    "--name=courseclicker",
+    "--add-data=courseclicker.ico;.",  # <== Add this line exactly like this (Windows uses semicolon!)
+    "src/courseclicker/main.py"
 ])

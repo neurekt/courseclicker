@@ -7,6 +7,7 @@ import logging
 import argparse
 import tkinter as tk
 from tkinter import messagebox
+import os
 
 # --- Setup logging ---
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -22,6 +23,15 @@ if system == "Darwin":
     log.info("🍎 macOS detected. Enable Accessibility permissions.")
 elif system == "Linux":
     log.info("🐧 Linux detected. PyAutoGUI may not work under Wayland.")
+
+# --- Helpers ---
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and PyInstaller """
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 # --- CLI Arguments ---
 def parse_args():
@@ -66,7 +76,7 @@ def run_click_loop(interval: int):
 # --- GUI Setup ---
 def launch_gui():
     root = tk.Tk()
-    root.iconbitmap("courseclicker.ico")
+    root.iconbitmap(resource_path("courseclicker.ico"))
     root.title(f"CourseClicker v{__version__}")
     root.minsize(360, 320)
     root.configure(padx=20, pady=20)
