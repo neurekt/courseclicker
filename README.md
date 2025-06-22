@@ -1,6 +1,6 @@
 # CourseClicker
 
-CourseClicker is a lightweight tool that clicks anywhere on your screen at regular intervals. Built to run automatically while you focus on other things — or nothing at all.
+CourseClicker is a lightweight tool that clicks anywhere on your screen at regular intervals. Built to run while you sleep.
 ---
 
 ## 🚀 Quick Start
