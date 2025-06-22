@@ -1,6 +1,6 @@
 ## CourseClicker
 
-This project clicks anywhere on your screen with configurable options and is currently run locally. It supports both a GUI and command-line interface.
+This project clicks anywhere on your screen with configurable options and is currently run locally. I definitely did not build this to get me through my real estate course while sleeping. It supports both a GUI and command-line interface.
 
 ---
 
