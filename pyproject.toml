@@ -1,4 +1,3 @@
-# pyproject.toml
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -6,12 +5,24 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "courseclicker"
 version = "0.1.0"
-description = "Minimal auto-clicker that keeps you moving forward"
+description = "Minimal auto-clicker that clicks 'Next' every N seconds and keeps your system awake."
 readme = "README.md"
 requires-python = ">=3.7"
+license = { file = "LICENSE.txt" }
+authors = [
+  { name = "Your Name", email = "your@email.com" }
+]
 dependencies = [
-    "pyautogui>=0.9",
-    "wakepy>=0.9"
+  "pyautogui>=0.9",
+  "wakepy>=0.9"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Environment :: Console",
+  "Topic :: Utilities"
 ]
 
 [project.scripts]

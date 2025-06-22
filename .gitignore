@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.spec
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyInstaller output
+*.exe
