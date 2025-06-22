@@ -1,4 +1,4 @@
-## Getting Started
+## CourseClicker
 
 This project clicks anywhere on your screen with configurable options and is currently run locally. It supports both a GUI and command-line interface.
 
