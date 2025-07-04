@@ -3,20 +3,20 @@
 CourseClicker is a lightweight tool that clicks anywhere on your screen at regular intervals. I built this to get through my real estate course this summer while sleeping.
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-📦 [Download the latest release](https://github.com/neurekt/courseclicker/releases)
+[Download the latest release](https://github.com/neurekt/courseclicker/releases)
 
-### ✅ How to Use (Windows)
+### How to Use (Windows)
 
 1. Extract the ZIP file
 2. Double-click `courseclicker.exe`
 3. Set your click position
-4. Let it run while you do something else 😎
+4. Let it run while you do something else 
 
 > No Python or install required.
 
-## 💻 Developer Setup (Optional)
+## Developer Setup (Optional)
 
 If you want to run or modify the Python code:
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 How to Use
+## How to Use
 
 ### Run with GUI (Default)
 
@@ -79,7 +79,7 @@ courseclicker --cli --interval 180
 
 ---
 
-## 🔨 Build Executable (Windows)
+## Build Executable (Windows)
 
 Build a standalone `.exe` (no Python needed to run):
 
@@ -123,7 +123,7 @@ rm -rf build dist *.spec
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 courseclicker/
@@ -144,6 +144,6 @@ courseclicker/
 
 ---
 
-## 📄 License
+## License
 
 See `LICENSE.txt` for terms.
