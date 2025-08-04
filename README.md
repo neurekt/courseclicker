@@ -99,7 +99,7 @@ This creates `courseclicker.exe` inside the `dist/` folder. You can now share or
 
 ---
 
-## 🛠 Development
+## Development
 
 Run the app in dev mode:
 ```bash
