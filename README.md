@@ -1,6 +1,6 @@
 # CourseClicker
 
-CourseClicker is a lightweight tool that clicks anywhere on your screen at regular intervals. I built this to get through my real estate course this summer while sleeping.
+Lightweight tool that clicks anywhere on your screen at regular intervals.
 ---
 
 ## Quick Start
